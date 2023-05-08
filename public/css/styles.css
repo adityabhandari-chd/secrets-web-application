@@ -1,0 +1,100 @@
+body {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.centered {
+  padding-top: 200px;
+  text-align: center;
+}
+
+.header {
+  height: 650px;
+  width: 98vw;
+  background-image: url("https://img.freepik.com/vecteurs-premium/illustration-potins-fille-excitee-chuchote-secret-sa-petite-amie_176448-122.jpg?w=2000");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 70px;
+}
+
+.button {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  width: 98vw;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: whitesmoke;
+}
+
+.header-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  height: 7rem;
+  width: 30rem;
+  border-radius: 32px;
+  margin-right: 90px;
+  font-size: 4rem;
+  color: white;
+  background-color: #00012f;
+}
+
+.header-btn:hover {
+  text-decoration: none;
+}
+
+.user-secret {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.secret-text {
+  text-align: center;
+  height: 44rem;
+  width: 55%;
+  font-size: 2rem;
+  color: black;
+  margin: 10px;
+  border-radius: 1%;
+  border: groove;
+  box-shadow: -10px 10px #888888;
+  background-color: #fff;
+  overflow: hidden;
+  overflow-wrap: anywhere;
+}
+
+.fa-user-circle {
+  font-size: 8rem;
+  margin-top: 28px;
+}
+
+.an-user {
+  display: inline;
+  margin-left: 3rem;
+}
+
+.user-text {
+  margin: 50px;
+}
+
+.textarea {
+  height: auto;
+  font-size: 40px;
+  display: inline;
+  width: 70%;
+  padding: 20px 40px 0px 40px;
+}
+
+.d-flex {
+  align-items: center;
+}
+.ms-3 {
+  font-size: 50px;
+  margin: 1rem;
+}
